@@ -148,23 +148,216 @@ So, the next time you sit down to write some code, ask yourself: Is this somethi
 -->
 
 ---
-layout: two-cols
-layoutClass: gap-16
+layout: fact
 ---
 
-# Table of contents
+<h2 style="font-size: 44px; line-height:50px">Do mistakes, don't blunder</h2>
+Lesson III
 
-You can use the `Toc` component to generate a table of contents for your slides:
+<!--
+Alright, let's tackle the delicate balance between making mistakes and avoiding blunders in the world of software development.
 
-```html
-<Toc minDepth="1" maxDepth="1"></Toc>
-```
+Picture this: You're knee-deep in code, working on a new feature or fixing a pesky bug, when suddenly, oops! You make a mistake. It happens to the best of us, right? But here's the thing: not all mistakes are created equal.
 
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
+In software development, it's perfectly normal (and even expected) to encounter bumps along the road. After all, we're only human, and coding can be a complex and intricate dance of logic and syntax. But there's a difference between making a mistake and making a blunder.
 
-::right::
+A mistake might be a typo in your code, a logic error, or forgetting to test a certain edge case. These are the little hiccups that come with the territory, and they're usually easy to spot and fix with a bit of debugging and testing.
 
-<Toc v-click minDepth="1" maxDepth="2"></Toc>
+On the other hand, a blunder is a mistake on steroids. It's the kind of slip-up that sends shockwaves through your codebase, causing bugs to multiply like rabbits and deadlines to go up in smoke. Think of it as accidentally hitting the self-destruct button instead of the snooze alarm—yikes!
+
+So, how do we avoid blunders while still embracing the inevitability of mistakes? It all comes down to a few key principles:
+
+First, embrace a mindset of continuous improvement. Learn from your mistakes and use them as stepping stones to level up your skills and knowledge. Nobody expects you to be perfect, but they do expect you to learn and grow from your experiences.
+
+Second, practice defensive coding. Write code that's robust, resilient, and resistant to errors. Use automated tests, code reviews, and static analysis tools to catch potential blunders before they wreak havoc on your project.
+
+And finally, know when to ask for help. There's no shame in reaching out to a colleague or mentor when you're stuck or unsure about something. Two heads are better than one, and sometimes a fresh perspective is all you need to avoid a catastrophic blunder.
+
+So, the next time you find yourself face-to-face with a mistake, remember: it's not the end of the world. Learn from it, grow from it, and whatever you do, don't let it escalate into a full-blown blunder. Your codebase—and your sanity—will thank you for it.
+-->
+
+
+---
+layout: fact
+---
+
+<h2 style="font-size: 44px; line-height:50px">Don't Let Others Fail</h2>
+Lesson IV
+
+<!--
+Alright, let's delve into a crucial lesson in software development: the importance of supporting and uplifting your team members to prevent failure.
+
+In the high-stakes world of software development, the pressure can sometimes feel like a pressure cooker ready to explode. Tight deadlines, complex problems, and ever-changing requirements can take their toll on even the most seasoned developers.
+
+But here's the thing: you're not in this alone. As a team, your success is intertwined with the success of each and every member. And that means looking out for one another, lending a helping hand when needed, and not letting others fail.
+
+Now, I'm not talking about swooping in like a superhero to save the day every time someone hits a roadblock. No, it's about creating a culture of support and collaboration where everyone feels empowered to ask for help and offer assistance when needed.
+
+So, what does this look like in practice? It means checking in with your teammates regularly, offering encouragement and praise for their hard work, and being willing to step in and lend a hand when someone is struggling.
+
+It also means advocating for resources, tools, and training to help your team succeed. Whether it's investing in better development tools, providing opportunities for professional development, or simply giving someone the time and space they need to recharge and refocus, it's all about setting your team up for success.
+
+And perhaps most importantly, it means leading by example. Show your team what it means to be supportive, empathetic, and collaborative. Celebrate their successes, learn from their failures, and above all, let them know that you've got their back no matter what.
+
+Because at the end of the day, your team is your greatest asset. And by lifting each other up and working together towards a common goal, you'll not only prevent failure but also achieve greatness beyond your wildest dreams.
+-->
+
+
+---
+layout: fact
+---
+
+<h2 style="font-size: 44px; line-height:50px">Brutal Honesty > Sugarcoating</h2>
+Lesson V
+
+<!--
+Alright, let's tackle a tough but essential lesson in software development: the value of brutal honesty over polite holdbacks.
+
+Picture this: You're in a meeting, discussing a new feature or project, and someone proposes an idea that just doesn't sit right with you. Maybe it's technically unfeasible, maybe it's not aligned with the project's goals, or maybe it's just plain bad. What do you do?
+
+Well, here's the thing: sugarcoating your feedback might spare someone's feelings in the short term, but in the long run, it can lead to wasted time, missed opportunities, and even project failure.
+
+That's where brutal honesty comes into play. Now, I'm not saying you should be a jerk about it—far from it. But when it comes to giving feedback, especially when it's critical or constructive, it's better to be upfront and transparent than to beat around the bush.
+
+So, how do you practice brutal honesty without burning bridges or bruising egos? It's all about framing your feedback in a constructive and respectful manner. Focus on the facts, provide specific examples or evidence to support your points, and offer suggestions for improvement or alternative solutions.
+
+And remember, it's not just about pointing out what's wrong—it's also about recognizing and acknowledging what's right. If someone on your team has done a stellar job, don't hold back on the praise. Positive reinforcement can be just as powerful as constructive criticism in shaping behavior and driving performance.
+
+By embracing brutal honesty, you're fostering a culture of transparency, accountability, and continuous improvement within your team. You're empowering your colleagues to speak up, challenge the status quo, and push the boundaries of what's possible.
+
+So, the next time you find yourself in a situation where honesty is called for, remember: being polite might spare someone's feelings, but being brutally honest can spare your project from disaster.
+-->
+
+
+---
+layout: fact
+---
+
+<h2 style="font-size: 44px; line-height:50px">No</h2>
+Lesson VI
+
+<!--
+Alright, folks, let's dive into our first lesson: being okay with saying "No." Now, I know what you're thinking—saying "No" isn't exactly everyone's favorite word, right? But hear me out.
+
+As a product owner, you're like the gatekeeper to the kingdom of features and functionalities. You're bombarded with requests from stakeholders, users, and even team members, all vying for a piece of your product pie. And let's be real, it's tempting to say "Yes" to everything. After all, you want to make everyone happy, right?
+
+But here's the thing: saying "Yes" to every request can quickly lead you down a rabbit hole of scope creep, missed deadlines, and frustrated developers. Trust me, been there, done that, got the stress-induced headache.
+
+So, what's the solution? Learning to embrace the power of "No." Now, I'm not talking about being a buzzkill and shutting down every idea that comes your way. No, no, no. It's about being strategic and assertive in your decision-making.
+
+When faced with a new feature request or change in scope, ask yourself: Does this align with our product vision? Will it benefit our users? Can we realistically implement it within our timeline and resources? If the answer is "No" to any of these questions, then it's okay to say "No" (politely, of course).
+
+By setting boundaries and managing expectations, you're not only protecting the integrity of your product but also fostering a culture of transparency and accountability within your team. Plus, you'll earn major respect points from your developers for sparing them from unnecessary stress and chaos.
+
+So, the next time you find yourself in a "Yes" or "No" dilemma, remember: it's not about being the bad guy, it's about being a savvy captain steering your ship towards success.
+-->
+
+
+---
+layout: fact
+---
+
+<h2 style="font-size: 44px; line-height:50px">Test Riskiest Assumptions</h2>
+Lesson VII
+
+<!--
+Alright, let's talk about the importance of testing the riskiest assumptions in software development.
+
+Imagine you're embarking on a new project or feature. You've got a vision, a plan, and a whole lot of assumptions about how things are going to play out. But here's the thing: assumptions are like the proverbial elephant in the room—they're big, they're powerful, and if left unchecked, they can trample your project into oblivion.
+
+That's where testing comes in. Specifically, testing the riskiest assumptions—the ones that have the potential to sink your project if they turn out to be false.
+
+So, what exactly are these risky assumptions? Well, they're the things you're betting the farm on—the core hypotheses that underpin your project's success. Maybe you're assuming that users will love your new feature, or that your technology stack will scale to meet demand, or that your marketing strategy will attract droves of customers.
+
+Whatever the assumption may be, it's critical to test it early and often. That means gathering real-world data, conducting user interviews, running experiments, and challenging your assumptions at every turn.
+
+Now, I get it—testing assumptions can be scary. What if you uncover a fatal flaw in your plan? What if your assumptions turn out to be dead wrong? Well, here's the thing: it's far better to uncover those flaws early on than to barrel ahead blindly and crash into a brick wall later down the road.
+
+By testing your riskiest assumptions, you're not only mitigating the potential for failure but also laying the foundation for a more robust and resilient project. You're embracing uncertainty and using it as a catalyst for innovation and growth.
+
+So, the next time you find yourself making assumptions, ask yourself: which ones are the riskiest? And what can I do to test them? It might just be the difference between a project that soars and one that crashes and burns.
+-->
+
+
+---
+layout: fact
+---
+
+<h2 style="font-size: 44px; line-height:50px">Feel Value Delivery</h2>
+Lesson VIII
+
+<!--
+Alright, let's dive into a critical lesson in product ownership: understanding how your product delivers value.
+
+As a product owner, you're not just responsible for managing features and functionalities—you're also the guardian of your product's value proposition. You need to know what sets your product apart, how it solves problems for your users, and why it matters in the grand scheme of things.
+
+So, what does it mean to know how your product delivers value?
+
+First and foremost, it's about understanding your users inside and out. Who are they? What are their pain points? What are they trying to accomplish? By immersing yourself in the world of your users, you can gain invaluable insights into how your product can make their lives better.
+
+Next, it's about understanding the broader context in which your product operates. What are the market trends? Who are your competitors? What are the regulatory considerations? By staying informed about the external factors that impact your product, you can better position it for success and anticipate potential challenges.
+
+But perhaps most importantly, knowing how your product delivers value means having a deep understanding of your product's unique value proposition. What makes it special? What problem does it solve? What benefits does it offer to your users? By articulating and championing your product's value proposition, you can align your team around a shared vision and inspire them to deliver their best work.
+
+By knowing how your product delivers value, you're not just a product owner—you're a value creator, a problem solver, and a champion for your users. So, the next time you're making decisions about your product, remember to keep the value proposition front and center. Because when you know how your product delivers value, you're not just building software—you're building a better future for your users and your business.
+-->
+
+
+---
+layout: fact
+---
+
+<h2 style="font-size: 44px; line-height:50px">Don't Bullshit, and Don't Do Shady Stuff</h2>
+Lesson IX
+
+<!--
+Alright, let's address a straightforward but crucial lesson in software development: integrity and honesty.
+
+In the fast-paced world of technology, it can be tempting to cut corners, bend the truth, or engage in shady practices to meet deadlines or gain a competitive edge. But here's the thing: honesty and integrity are non-negotiables when it comes to building trust and credibility with your team, your users, and your stakeholders.
+
+First and foremost, don't bullshit. Excuse my language, but there's no better way to put it. Be upfront and transparent about the challenges and limitations of your project. If something isn't working or if there's a roadblock that needs addressing, own up to it and communicate openly with your team and stakeholders. Sweeping problems under the rug or sugarcoating the truth might buy you some time in the short term, but it'll inevitably come back to haunt you in the long run.
+
+Secondly, don't do shady stuff. This should go without saying, but it bears repeating. Whether it's manipulating data, plagiarizing code, or engaging in unethical business practices, taking shortcuts or cutting corners will only tarnish your reputation and erode trust with your users and stakeholders. Remember, trust is hard to earn and easy to lose. So, always strive to conduct yourself with integrity and uphold the highest ethical standards in everything you do.
+
+By embracing honesty and integrity in your work, you're not just building software—you're building trust, credibility, and lasting relationships with your team and your community. So, the next time you're faced with a moral dilemma or a temptation to take the easy way out, remember: don't bullshit, and don't do shady stuff. Your conscience—and your reputation—will thank you for it.
+-->
+
+
+---
+layout: fact
+---
+
+
+<h2 style="font-size: 44px; line-height:50px">Acknowledge and Celebrate Success</h2>
+Lesson X
+
+<!--
+Alright, let's wrap up our journey through software development with a lesson that's all about recognizing and appreciating the victories, big and small.
+
+In the fast-paced world of software development, it's easy to get caught up in the never-ending cycle of deadlines, bug fixes, and feature requests. But amidst the chaos, it's important to take a step back and acknowledge the wins—the milestones achieved, the goals reached, and the obstacles overcome.
+
+Why? Because celebrating success isn't just about patting ourselves on the back—it's about fostering a culture of positivity, motivation, and camaraderie within our team. It's about recognizing the hard work, dedication, and ingenuity that goes into every line of code, every design iteration, and every user interaction.
+
+So, how do we acknowledge and celebrate success? Well, it can be as simple as a shoutout in a team meeting, a high-five in the hallway, or a celebratory happy hour at the end of a sprint. It can also be more formal, like a team-wide recognition program, an awards ceremony, or even a company-wide announcement highlighting major achievements.
+
+But regardless of the form it takes, the key is sincerity and authenticity. Celebrate not just the outcomes, but also the effort, the collaboration, and the resilience that led to those outcomes. And don't forget to involve everyone in the celebration—after all, success is a team effort, and everyone deserves to share in the glory.
+
+By acknowledging and celebrating success, we're not just boosting morale and motivation—we're also reinforcing a culture of excellence and achievement that will propel us forward on our journey through software development. So, the next time you achieve a milestone or reach a goal, take a moment to pause, reflect, and celebrate the journey. You've earned it.
+-->
+
+---
+layout: center
+---
+
+As we reach the end of our journey through the world of software development, I hope you've found these ten lessons insightful, inspiring, and perhaps even a bit thought-provoking. From embracing honesty and integrity to celebrating success, each lesson serves as a guiding light on our path towards excellence in our craft.
+
+As product owners, developers, designers, and stakeholders, we are the architects of tomorrow's digital landscape. We hold the power to shape the future, to innovate, and to impact the lives of millions around the globe. But with that power comes great responsibility—the responsibility to lead with integrity, to collaborate with empathy, and to never lose sight of the human element behind the code.
+
+So, as we venture forth into the ever-evolving world of software development, let us carry these lessons with us as beacons of wisdom and inspiration. Let us embrace the challenges, celebrate the victories, and never stop learning and growing along the way.
+
+Together, we can build a future where technology serves humanity, where innovation knows no bounds, and where our collective efforts pave the way for a brighter tomorrow.
+
+Thank you, and may your code be bug-free and your dreams be limitless.
 
 ---
 layout: image-right
